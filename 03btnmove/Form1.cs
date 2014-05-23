@@ -9,6 +9,9 @@ using System.Windows.Forms;
 
 namespace _03btnmove
 {
+    // 追加をしてみる
+    // これをフォーク先で統合
+
     public partial class Form1 : Form
     {
         public Form1()
