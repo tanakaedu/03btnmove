@@ -31,12 +31,7 @@ namespace _03btnmove
                 label1.Left = label1.Left + vx;
                 label1.Top = label1.Top + vy;
 
-                if (label1.Left < 0) {
-                    label1.Left -= vx;
-                    textBox1.Text = (-vx).ToString();
-                }
-                if (label1.Left+label1.Width > ClientSize.Width)
-                {
+                if ((label1.Left < 0) || (label1.Left+label1.Width > ClientSize.Width)){
                     label1.Left -= vx;
                     textBox1.Text = (-vx).ToString();
                 }
